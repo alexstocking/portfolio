@@ -4,8 +4,9 @@ import './footer.css'
 
 export default function ContactMe() {
     return (
-        <footer className="footer">
+        <footer id='contact' className="footer">
             <div className="container">
+                <hr />
                 <div className="row">
                     <div className="col-md-6">
                         <h1>Social Links</h1>

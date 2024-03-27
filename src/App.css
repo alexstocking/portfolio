@@ -9,6 +9,7 @@
   background-color: lightgray;
   height: 8vh;
   margin-top: 0;
+  font-size: 2vh;
 }
 
 .brand {
@@ -22,45 +23,87 @@
 }
 
 .Title {
-  height: 92vh; /* Set a fixed height for the Title component */
+  height: 100vh; /* Set a fixed height for the Title component */
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #f0f0f0; /* Change as needed */
+  background-image: url('https://static.vecteezy.com/system/resources/previews/005/675/522/original/laptop-with-a-white-screen-yellow-room-with-design-background-and-empty-shelf-yellow-studio-background-space-with-leaf-shadows-realistic-style-vector.jpg');
+  background-size: cover;
+  background-position: center;
 }
 
 .Title h1 {
-  font-size: 8vh;
+  font-size: 10vh;
+  color: black;
 }
 
 .Title h5 {
-  font-size: 3vh;
+  font-size: 3.5vh;
+  color: black;
 }
 
 
 .about {
   padding: 20px;
-  background-color: #f8f9fa; /* Light gray background */
+  background-color: #f8f9fa;
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .about h1 {
   margin-bottom: 20px;
-  color: #333; /* Dark text color */
+  color: #333;
 }
 
-.about p {
-  font-size: 2vh;
+p, li {
+  font-size: 2.5vh;
   line-height: 1.6;
-  color: #555; /* Medium gray text color */
+  color: #333;
+}
+
+a {
+  font-size: 2.5vh;
 }
 
 .projectright {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+  text-align: right;
   justify-content: flex-end;
+  padding-right: 1vh;
+  padding-top: 1vh;
+}
+
+.linksright {
+  text-align: right;
+  padding-right: 1vh;
+  padding-bottom: 2vh
+}
+
+.projectleft {
+  padding-top: 1vh;
+  padding-left: 1vh;
+  padding-bottom: 2vh;
+}
+
+.fixed-top {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+.about,
+#projects,
+#contact {
+  padding-top: 8vh;
+}
+
+hr {
+  border: none;
+  height: 3px;
+  background-color: black;
 }

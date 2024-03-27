@@ -1,6 +1,5 @@
 import { Navbar, Nav, Container } from 'react-bootstrap';
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
-import '../App.css'
 
 export default function NavBar() {
   const scrollToSection = (id) => {
@@ -13,7 +12,7 @@ export default function NavBar() {
   };
 
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar bg="light" expand="lg" className='fixed-top'>
       <Container fluid className='navbar'>
         <Navbar.Brand href="/" className='brand'>Alex Stocking</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

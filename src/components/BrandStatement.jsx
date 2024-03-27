@@ -1,9 +1,9 @@
 import {Container} from 'react-bootstrap'
-import '../App.css'
 
 export default function BrandStatement() {
   return (
     <Container id="about" className='about'>
+      <hr />
       <h1>About Me</h1>
       <p>
         As a former teacher, I have a real passion for helping, working with and inspiring others with my personable and relaxed demeanour. Thriving in environments founded on mutual trust, I excel in team dynamics, readily assuming leadership roles when needed.

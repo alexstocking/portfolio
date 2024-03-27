@@ -20,7 +20,7 @@ export default function NavBar() {
           <Nav className="mr-auto links">
             <Nav.Link onClick={() => scrollToSection('about')}>About Me</Nav.Link>
             <Nav.Link onClick={() => scrollToSection('projects')}>Projects</Nav.Link>
-            <Nav.Link onClick={() => scrollToSection('contact')}>Social Links</Nav.Link>
+            <Nav.Link onClick={() => scrollToSection('contact')}>Contact Details</Nav.Link>
           </Nav>
           <Nav className="icons">
             <Nav.Link href="https://www.linkedin.com/in/alex-stocking/" target="_blank"><FaLinkedin /></Nav.Link>

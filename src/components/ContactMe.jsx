@@ -19,9 +19,9 @@ export default function ContactMe() {
                         <br />
                         <br />
                         <ul className="social-icons">
-                            <li><a href="https://www.linkedin.com/in/alex-stocking/"><FontAwesomeIcon icon={faLinkedin} className="blackIcon"/></a></li> &nbsp;
-                            <li><a href="https://github.com/alexstocking"><FontAwesomeIcon icon={faGithub} className="blackIcon"/></a></li> &nbsp;
-                            <li><a href="https://www.facebook.com/AlexNStocking"><FontAwesomeIcon icon={faFacebook} className="blackIcon"/></a></li> &nbsp;
+                            <li><a href="https://www.linkedin.com/in/alex-stocking/" target='blank'><FontAwesomeIcon icon={faLinkedin} className="blackIcon"/></a></li> &nbsp;
+                            <li><a href="https://github.com/alexstocking" target='blank'><FontAwesomeIcon icon={faGithub} className="blackIcon"/></a></li> &nbsp;
+                            <li><a href="https://www.facebook.com/AlexNStocking" target='blank'><FontAwesomeIcon icon={faFacebook} className="blackIcon"/></a></li> &nbsp;
                         </ul>
                     </div>
                 </div>

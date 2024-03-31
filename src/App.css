@@ -67,6 +67,12 @@ a {
   font-size: 2.5vh;
 }
 
+img {
+  object-fit: contain;
+  max-width: 100%;
+  height: auto;
+}
+
 .projectright {
   display: flex;
   flex-direction: column;
@@ -98,7 +104,9 @@ a {
 
 .about,
 #projects,
-#contact {
+#contact,
+#skills,
+#interests {
   padding-top: 8vh;
 }
 
@@ -106,4 +114,14 @@ hr {
   border: none;
   height: 3px;
   background-color: black;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+h3 {
+  padding-left: 30px;
 }

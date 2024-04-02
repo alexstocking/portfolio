@@ -15,7 +15,7 @@ export default function Projects() {
               <h2>Project 1: Frogger</h2>
               <h5>A Browser Game using HTML, CSS and JavaScript</h5>
               <p>For my first project, I was tasked with building a browser game using HTML, CSS and JavaScript. I decided to create the classic game Frogger. It has 3 board sizes with each having levels getting incrementally harder to complete. I decided to go with a retro theme, using an arcade-like font, and 8-bit music and sounds for my audio. It was an excellent first step into programming and I learnt a lot, particularly about refactoring my code to make it more readable and reusable.</p>
-              <a href="https://github.com/alexstocking/FroggerUnit1BrowserGame/tree/main/FroggerUnit1BrowserGame" target="blank">GitHub</a> &nbsp;
+              <a href="https://github.com/alexstocking/FroggerUnit1BrowserGame" target="blank">GitHub</a> &nbsp;
               <a href="https://alexstocking.github.io/FroggerUnit1BrowserGame/FroggerUnit1BrowserGame/" target="blank">Game</a>
             </div>
           </Col>
